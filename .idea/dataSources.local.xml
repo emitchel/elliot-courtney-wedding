@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails elliot-courtney-wedding: development" uuid="8ee07f64-5d18-40c2-aa33-88b602673d9d">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+    </data-source>
+    <data-source name="Rails elliot-courtney-wedding: production" uuid="6dcedcb5-e2d3-4836-8daf-818d727c7f51">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>elliot-courtney-wedding</user-name>
+    </data-source>
+    <data-source name="Rails elliot-courtney-wedding: test" uuid="5c511670-70f7-474d-9d9c-aa35d37ea271">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+    </data-source>
+  </component>
+</project>

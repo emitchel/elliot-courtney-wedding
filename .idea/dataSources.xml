@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails elliot-courtney-wedding: development" uuid="8ee07f64-5d18-40c2-aa33-88b602673d9d">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:elliot-courtney-wedding_development</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails elliot-courtney-wedding: production" uuid="6dcedcb5-e2d3-4836-8daf-818d727c7f51">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:elliot-courtney-wedding_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails elliot-courtney-wedding: test" uuid="5c511670-70f7-474d-9d9c-aa35d37ea271">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:elliot-courtney-wedding_test</jdbc-url>
+    </data-source>
+  </component>
+</project>
