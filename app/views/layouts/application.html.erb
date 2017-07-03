@@ -1,14 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>ElliotCourtneyWedding</title>
-    <%= csrf_meta_tags %>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="author" content="Elliot Mitchell" />
+  <meta name="description" content="Elliot & Courtney Wedding | Oct. 14 2017">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Elliot & Courtney Wedding</title>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
+  <!-- Preloader CSS -->
+  <link href="assets/royal_preloader.css" rel="stylesheet">
 
-  <body>
-    <%= yield %>
-  </body>
+  <!-- jQuery -->
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <!-- Parallax -->
+  <script type="text/javascript" src="assets/parallax.min.js"></script>
+
+  <!-- Preloader -->
+  <script type="text/javascript" src="assets/royal_preloader.min.js"></script>
+  <script type="text/javascript">
+      Royal_Preloader.config({
+          mode:           'number',
+          showProgress:   false,
+          background:     '#ffffff'
+      });
+  </script>
+
+  <!-- Stylesheets -->
+  <link href="assets/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/ionicons.min.css" rel="stylesheet">
+  <link href="assets/magnific-popup.css" rel="stylesheet">
+  <link href="assets/style.css" rel="stylesheet" title="main-css">
+
+  <!-- Style Switcher / remove for production -->
+  <link href="assets/style-switcher.css" rel="stylesheet">
+
+  <!-- Alternate Stylesheets / choose what color and base you want and include the 2 files regularly AFTER style.css above -->
+  <link rel="alternate stylesheet" type="text/css" href="assets/gold.css" title="gold">
+</head>
+
+<body class="royal_preloader" data-spy="scroll" data-target=".navbar" data-offset="90">
+<%= yield %>
+</body>
 </html>
